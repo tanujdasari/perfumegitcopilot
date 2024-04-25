@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfume Company</title>
+    <style>
+        body {
+            background-color: #f0e4d7;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .header {
+            background-color: #f4a460;
+            text-align: center;
+            padding: 10px;
+        }
+        .header button {
+            background-color: #d2691e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .product {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .product div {
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #d2691e;
+            border-radius: 10px;
+        }
+        .product img {
+            width: 100%;
+        }
+        .footer {
+            background-color: #f4a460;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Perfume Company</h1>
+        <button>Home</button>
+        <button>Product</button>
+    </div>
+    <div class="product">
+        <div>
+            <img src="perfume1.jpg" alt="Perfume 1">
+            <h2>Perfume 1</h2>
+            <p>Description for Perfume 1</p>
+        </div>
+        <div>
+            <img src="perfume2.jpg" alt="Perfume 2">
+            <h2>Perfume 2</h2>
+            <p>Description for Perfume 2</p>
+        </div>
+        <div>
+            <img src="perfume3.jpg" alt="Perfume 3">
+            <h2>Perfume 3</h2>
+            <p>Description for Perfume 3</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2022 Perfume Company</p>
+    </div>
+</body>
+</html>
